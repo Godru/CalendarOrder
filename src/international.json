@@ -1,0 +1,452 @@
+{
+				"ru": {
+					"header": "Форма регистрации",
+					"calendar": "ruCalendar",
+					"userInfo": {
+						"title": "Личные данные",
+						"last_name": {
+							"caption": "Фамилия",
+							"err": "Неверная Фамилия",
+						},
+						"first_name": {
+							caption: "Имя",
+							err: "Неверное Имя"
+						},
+						middle_name: {
+							caption: "Отчество",
+							err: "Неверное Отчество",
+						},
+						first_name_latin: {
+							caption: "Имя латинскими буквами",
+						},
+						last_name_latin: {
+							caption: "Фамилия латинскими буквами",
+						},
+						gender: {
+							caption: "Укажите пол",
+							options: ["Мужской", "Женский"],
+
+						},
+						phone1: {
+							caption: "Телефон 1",
+						},
+						phone2: {
+							caption: "Телефон 2",
+						},
+						email: {
+							caption: "Адрес эл. почты",
+							err: "Неверный email",
+						},
+						birthdate: {
+							caption: "Дата рождения",
+						},
+						birth_countrycode: {
+							caption: "Страна рождения",
+						},
+						birth_place: {
+							caption: "Страна",
+						},
+						sitizenshipcode: {
+							caption: "Код гражданина",
+						},
+						accr_group: {
+							caption: "Категория аккредитации",
+						},
+					},
+
+					passwords: {
+						title: "Регистрация в личном кабинете",
+						warning: "Внимание! Адрес Вашей электронной почты автоматически становиться Вашим логином в личном кабинете.",
+						password: {
+							caption: "Введите пароль"
+						},
+						password2: {
+							caption: "Повторите пароль",
+							err: "Пароли не совпадают",
+						},
+					},
+					organizationInfo: {
+						title: "Организация",
+						org_name: {
+							caption: "Название организации"
+						},
+						mass_media_name: {
+							caption: "Название СМИ"
+						},
+						mass_media_type: {
+							caption: "Тип СМИ"
+						},
+						mass_media_country: {
+							caption: "Страна СМИ"
+						},
+						org_work_position: {
+							caption: "Должность"
+						},
+						org_phone: {
+							caption: "Телефон"
+						},
+						"org_email": {
+							"caption": "Адрес эл. почты",
+							"err": "Неверный email",
+						},
+						"org_fax": {
+							"caption": "Факс"
+						},
+					},
+					"passportInfo": {
+						"title": "Пасспортные данные",
+						"pass_series": {
+							"caption": "Серия"
+						},
+						"pass_number": {
+							"caption": "Номер"
+						},
+						"pass_doc_type": {
+							"caption": "Тип документа"
+						},
+						"pass_issued_by": {
+							"caption": "Кем выдан"
+						},
+						"pass_dept_code": {
+							"caption": "Код подразделения"
+						},
+						"pass_issued_at": {
+							"caption": "Дата выдачи"
+						},
+						"pass_expires_at": {
+							"caption": "Дата истечения"
+						}
+					},
+					"actualAddress": {
+						"title": "Адрес проживания",
+						"actual_postal_index": {
+							"caption": "Почтовый индекс"
+						},
+						"actual_countrycode": {
+							"caption": "Код страны",
+							"err": "Неверный код страны",
+						},
+						"actual_region": {
+							"caption": "Регион"
+						},
+						"actual_district": {
+							"caption": "Район"
+						},
+						"actual_city": {
+							"caption": "Город"
+						},
+						"actual_street": {
+							"caption": "Улица"
+						},
+						"actual_house": {
+							"caption": "Дом"
+						},
+						"actual_housing": {
+							"caption": "Корпус"
+						},
+						"actual_building": {
+							"caption": "Строение"
+						},
+						"actual_apartment": {
+							"caption": "Квартира"
+						}
+					},
+					"regAddress": {
+						"title": "Адрес по прописке",
+						"reg_postal_index": {
+							"caption": "Почтовый индекс"
+						},
+						"reg_countrycode": {
+							"caption": "Код страны",
+							"err": "Неверный код страны"
+						},
+						"reg_region": {
+							"caption": "Регион"
+						},
+						"reg_district": {
+							"caption": "Район"
+						},
+						"reg_city": {
+							"caption": "Город"
+						},
+						"reg_street": {
+							"caption": "Улица"
+						},
+						"reg_house": {
+							"caption": "Дом"
+						},
+						"reg_housing": {
+							"caption": "Корпус"
+						},
+						"reg_building": {
+							"caption": "Строение"
+						},
+						"reg_apartment": {
+							"caption": "Квартира"
+						}
+					},
+
+					"photos": {
+						"title": "Приложить файлы",
+						"photo": {
+							"caption": "Загрузить фотографию",
+						},
+						"pass1_scan_file": {
+							"caption": "Фото первой страницы паспорта"
+						},
+						"pass2_scan_file": {
+							"caption": "Фото второй страницы паспорта"
+						}
+					},
+
+					"comments": {
+						"accomodation_comments": {
+							"caption": "Комментарии по размещению"
+						}
+					},
+					"checkboxes": {
+						"agreed": {
+							"caption": "Согласие на обработку персональных данных"
+						}
+					},
+					"submit": {
+						"caption": "Зарегистрироваться"
+					},
+					"errors": {
+						"registerError": "Ошибка при регистрации",
+						"systemError": "Системная ошибка при регистрации"
+					},
+					"dialog": {
+						"close": "Закрыть",
+					},
+					"success": {
+						"caption": "Заявка принята",
+						"message": "Мы приняли вашу заявку на аккредитацию. Вскоре в ваш почтовый ящик придёт письмо с подтверждением."
+					}
+				},
+				"en": {
+					"header": "Registration form",
+					"calendar": "enCalendar",
+					"userInfo": {
+						"title": "Personal data",
+						"last_name": {
+							"caption": "Last name",
+							"err": "Invalid last name",
+						},
+						"first_name": {
+							"caption": "First name",
+							"err": "Invalid first name"
+						},
+						"middle_name": {
+							"caption": "Middle name",
+							"err": "Invalid middle name",
+						},
+						"first_name_latin": {
+							"caption": "First name in latin letters",
+						},
+						"last_name_latin": {
+							"caption": "Last name in latin letters",
+						},
+						"gender": {
+							"caption": "Select gender",
+							"options": ["Male", "Female"],
+
+						},
+						"phone1": {
+							"caption": "Phone number",
+						},
+						"phone2": {
+							"caption": "Extra phone number",
+						},
+						"email": {
+							"caption": "Email address",
+							"err": "Invalid email",
+						},
+						"birthdate": {
+							"caption": "Birth date",
+						},
+						"birth_countrycode": {
+							"caption": "Birth country",
+						},
+						"birth_place": {
+							"caption": "Country",
+						},
+						"sitizenshipcode": {
+							"caption": "Sitizenship code",
+						},
+						"accr_group": {
+							"caption": "Accreditation group",
+						},
+					},
+
+					"passwords": {
+						"title": "Account registration",
+						"warning": "Attention! Your email address will automatically become you\"r account name.",
+						"password": {
+							"caption": "Input password"
+						},
+						"password2": {
+							"caption": "Repeat password",
+							"err": "Passwords do not match",
+						},
+					},
+					"organizationInfo": {
+						"title": "Organization",
+						"org_name": {
+							"caption": "Organization name"
+						},
+						"mass_media_name": {
+							"caption": "Mass media name"
+						},
+						"mass_media_type": {
+							"caption": "Mass media type"
+						},
+						"mass_media_country": {
+							"caption": "Mass media country"
+						},
+						"org_work_position": {
+							"caption": "Organization work position"
+						},
+						"org_phone": {
+							"caption": "Phone number"
+						},
+						"org_email": {
+							"caption": "Email address",
+							"err": "Invalid email",
+						},
+						"org_fax": {
+							"caption": "Fax"
+						},
+					},
+					"passportInfo": {
+						"title": "Passport data",
+						"pass_series": {
+							"caption": "Series"
+						},
+						"pass_number": {
+							"caption": "Number"
+						},
+						"pass_doc_type": {
+							"caption": "Passport type"
+						},
+						"pass_issued_by": {
+							"caption": "Issued by"
+						},
+						"pass_dept_code": {
+							"caption": "Department code"
+						},
+						"pass_issued_at": {
+							"caption": "Issued at"
+						},
+						"pass_expires_at": {
+							"caption": "Expires at"
+						}
+					},
+					"actualAddress": {
+						"title": "Actual address",
+						"actual_postal_index": {
+							"caption": "Postal index"
+						},
+						"actual_countrycode": {
+							"caption": "Country code",
+							"err": "Invalid Country code",
+						},
+						"actual_region": {
+							"caption": "Region"
+						},
+						"actual_district": {
+							"caption": "District"
+						},
+						"actual_city": {
+							"caption": "City"
+						},
+						"actual_street": {
+							"caption": "Street"
+						},
+						"actual_house": {
+							"caption": "House"
+						},
+						"actual_housing": {
+							"caption": "Housing"
+						},
+						"actual_building": {
+							"caption": "Building"
+						},
+						"actual_apartment": {
+							"caption": "Apartment"
+						}
+					},
+					"regAddress": {
+						"title": "Registration address",
+						"reg_postal_index": {
+							"caption": "Postal index"
+						},
+						"reg_countrycode": {
+							"caption": "Country code",
+							"err": "Invalid county code"
+						},
+						"reg_region": {
+							"caption": "Region"
+						},
+						"reg_district": {
+							"caption": "District"
+						},
+						"reg_city": {
+							"caption": "City"
+						},
+						"reg_street": {
+							"caption": "Street"
+						},
+						"reg_house": {
+							"caption": "House"
+						},
+						"reg_housing": {
+							"caption": "Housing"
+						},
+						"reg_building": {
+							"caption": "Building"
+						},
+						"reg_apartment": {
+							"caption": "Apartment"
+						}
+					},
+
+					"photos": {
+						"title": "Upload files",
+						"photo": {
+							"caption": "Upload photo",
+						},
+						"pass1_scan_file": {
+							"caption": "Passport first page scan"
+						},
+						"pass2_scan_file": {
+							"caption": "Passport second page scan"
+						}
+					},
+
+					"comments": {
+						"accomodation_comments": {
+							"caption": "Accomodation comments"
+						}
+					},
+					"checkboxes": {
+						"agreed": {
+							"caption": "Personal data processing agreement"
+						}
+					},
+					"submit": {
+						"caption": "Sign Up"
+					},
+					"errors": {
+						"registerError": "Registration error",
+						"systemError": "System error during registration",
+					},
+					"dialog": {
+						"close": "close",
+					},
+					"success": {
+						"caption": "Order success",
+						"message": "We accepted you\'r accreditation order. The confirmation email will be sent to you\'r email address."
+					}
+				}
+			}
